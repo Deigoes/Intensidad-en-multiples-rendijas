@@ -42,7 +42,7 @@ def generar_grafica_estetizada(delta, resultados, x_max, save_path=None):
             color_text = 'black'
 
         # Texto posicionado con bbox (caja redondeada)
-        ax.text(delta_max * np.pi + 0.2, 0.85, label_text, 
+        ax.text(x_max * np.pi + 0.2, 0.85, label_text, 
                 fontsize=11, fontweight='bold', color=color_text,
                 bbox=dict(boxstyle="round,pad=0.2", facecolor="white", alpha=0.8))
 
