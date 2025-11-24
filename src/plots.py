@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def generar_grafica_estetizada(delta, resultados, delta_max, save_path=None):
+def generar_grafica_estetizada(delta, resultados, x_max, save_path=None):
     """
     Genera la gráfica con el estilo visual avanzado solicitado.
     
